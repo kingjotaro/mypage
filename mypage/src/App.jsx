@@ -28,8 +28,6 @@ function App() {
       </div>
 
       <div className={`bg-black-gradient-2 ${styles.flexCenter} ${styles.paddingB}`}>
-      <p className={`${styles.heading2} ml-10 `}
-        > Awaken your ideas from the darkness, light up your path! </p>
         <div className={`flex items-center center`}></div>
         <Midboard />
       </div>
