@@ -20,7 +20,7 @@ const Board = () => {
       >
         <Spline
           className={`spline absolute w-full h-full`}
-          scene="https://prod.spline.design/MQqYpCovw8zTHaUT/scene.splinecode"
+          scene="https://prod.spline.design/oMP39xrH2DhD1meU/scene.splinecode"
         />
       </div>
     </div>
