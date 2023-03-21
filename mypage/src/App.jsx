@@ -27,8 +27,9 @@ function App() {
         </div>
       </div>
 
-      <div className={`bg-black-gradient-2 ${styles.flexCenter} ${styles.paddingB}`}>
-        <div className={`flex items-center center`}></div>
+      <div className={`bg-black-gradient-2 ${styles.paddingB}`}>
+        <p className={`text-white ${styles.paragraph}`}>
+        Portfólio</p>
         <Midboard />
       </div>
 

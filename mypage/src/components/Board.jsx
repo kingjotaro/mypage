@@ -1,18 +1,30 @@
-import React from 'react'
+import React from 'react';
 import Spline from '@splinetool/react-spline';
 
-
-
-
-
 const Board = () => {
+  const handleMouseOver = e => {
+    e.preventDefault();
+    document.body.style.overflow = 'hidden';
+  };
+
+  const handleMouseLeave = () => {
+    document.body.style.overflow = 'auto';
+  };
+
   return (
-    <div className=''>
-      <Spline className={`spline`} scene="https://prod.spline.design/F1mfh6BpVdhhsb8p/scene.splinecode" />
+    <div className="h-screen overflow-auto">
+      <div
+        className="relative w-2/3 mx-auto"
+        onMouseOver={handleMouseOver}
+        onMouseLeave={handleMouseLeave}
+      >
+        <Spline
+          className={`spline absolute w-full h-full`}
+          scene="https://prod.spline.design/XgUf6XSfQ7THA52N/scene.splinecode"
+        />
+      </div>
     </div>
-    
+  );
+};
 
-  )
-}
-
-export default Board
+export default Board;

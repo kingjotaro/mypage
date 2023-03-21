@@ -1,10 +1,25 @@
 import React from 'react'
-import Spline from '@splinetool/react-spline';
+import styles from '../style';
 
 const Midboard = () => {
   return (
-    <div>
-      <Spline scene ="https://prod.spline.design/srYI7mU08TQglvOU/scene.splinecode" />
+    <div className= {`text-white ${styles.flexCenter}`}> 
+        
+    <div className={`flex-col`}>
+      <spam>Spline</spam>
+      <ul>Lampada</ul>
+      <ul>Foguete</ul>
+      <ul>Sistema solar</ul>
+      </div>
+
+    <div className={`flex-col`} >
+      <spam>Projetos</spam>
+      <ul>App Clima</ul>
+      <ul>Webscraping Yahoo</ul>
+      <ul>E-commerce de camisetas</ul>
+
+
+    </div >
       </div>
   )
 }
