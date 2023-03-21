@@ -12,10 +12,10 @@ const Navbar = () => {
   const [toogle, settoogle] = useState(false);
 
   return (
-    <nav className='w-full flex py-10 justify-center items-center navbar'>
+    <nav className='w-full flex py-10 justify-center items-center navbar relative z-10'>
       
       <ul className='list-none sm:flex
-        hidden justify-center items-center flex-1'>
+        hidden justify-center items-center flex-1 '>
           {navLinks.map ((nav, index) => (
             <li 
             key = {nav.id} 

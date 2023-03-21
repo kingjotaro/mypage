@@ -12,7 +12,7 @@ const Board = () => {
   };
 
   return (
-    <div className="h-screen overflow-auto">
+    <div className="h-screen overflow-auto ">
       <div
         className="relative w-2/3 mx-auto"
         onMouseOver={handleMouseOver}
@@ -20,7 +20,7 @@ const Board = () => {
       >
         <Spline
           className={`spline absolute w-full h-full`}
-          scene="https://prod.spline.design/XgUf6XSfQ7THA52N/scene.splinecode"
+          scene="https://prod.spline.design/MQqYpCovw8zTHaUT/scene.splinecode"
         />
       </div>
     </div>
