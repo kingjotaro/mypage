@@ -2,24 +2,11 @@ import React from 'react';
 import Spline from '@splinetool/react-spline';
 
 const Board = () => {
-  const handleMouseOver = e => {
-    e.preventDefault();
-    document.body.style.overflow = 'hidden';
-  };
-
-  const handleMouseLeave = () => {
-    document.body.style.overflow = 'auto';
-  };
-
   return (
-    <div className="h-screen overflow-auto ">
-      <div
-        className="relative w-2/3 mx-auto"
-        onMouseOver={handleMouseOver}
-        onMouseLeave={handleMouseLeave}
-      >
+    <div className="overflow-auto">
+      <div className="relative w-2/3 mx-auto">
         <Spline
-          className={`spline absolute w-full h-full`}
+          className={`spline w-full h-full relative z-0`}
           scene="https://prod.spline.design/oMP39xrH2DhD1meU/scene.splinecode"
         />
       </div>
@@ -28,3 +15,4 @@ const Board = () => {
 };
 
 export default Board;
+
