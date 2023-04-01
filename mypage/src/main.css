@@ -31,36 +31,41 @@
   margin-right: 20;
   }
 
-.bg-blue-gradient {
-  background: linear-gradient(
-    157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
-  );
-}
-
-.bg-black-gradient {
-  background: linear-gradient(
-    -0.39deg,
-    #000000 -278.56%,
-    #fafafa -78.47%,
-    #ffffff 91.61%
-  ); 
-}
-
-.bg-black-gradient-2 {
-  background: linear-gradient(
-    #000000 50.00%,
   
-  );
+
+  .bg-black-to-white-gradient3 {
+    background: linear-gradient(to bottom,
+    #000000 2%,
+    #2c2c2c 5%,
+    #000000 7%,
+    #000000 40%,
+    #2c2c2c 41%,
+    #000000 46%,
+    #000000 77%,
+    #2c2c2c 79%,
+    #000000 84%,
+    #000000 100%);
+  }
+
+.fonte-size1 {
+  font-size: 15px;
 }
 
+.fonte-size2 {
+  font-size: 20px; 
+}
 
+.fonte-size3 {
+  font-size: 30px;
+}
 
+.fonte-size4 {
+  font-size: 40px;
+}
+
+.fonte-size5 {
+  font-size: 50px;
+}
 
 
 

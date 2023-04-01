@@ -3,15 +3,18 @@ const styles = {
     boxWidth2: "xl:max-w-[1440px] w-full ml-4",
 
   
-
+    heading1: "font-serif-sans font-bold xs:text-[35px] text-gray-800 flex justify-center items-center text-center",
     heading2: "font-serif-sans font-bold xs:text-[35px] text-gray-800 flex justify-center items-center text-center -mb-10 py-20",
+    
     paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
   
     flexCenter: " flex justify-center items-center",
     flexStart: "justify-center items-start",
     flexCenter2: "flex items-center",
 
+   
     
+
     paddingB: "sm:px-20",
     paddingX: "sm:px-16 px-6",
     paddingY: "sm:py-16 py-6",

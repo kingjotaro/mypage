@@ -1,20 +1,18 @@
-import React from 'react'
-import Spline from '@splinetool/react-spline';
+import React from 'react';
+import rocket from '../assets/rocket.gif';
 
 const Footer = () => {
-
-  
   return (
-    <div>
-      <div className='sm:flex hidden'>
-        <Spline scene ="https://prod.spline.design/YefdfrTDTnWHgFJG/scene.splinecode" />
-        </div>
-          
-      
-     </div>
-  )
-}
+    <div className={`flex-cold relative`}>
+      <iframe
+        src={rocket}
+        width="500"
+        height="400"
+        
+        scrolling="no"
+      />
+    </div>
+  );
+};
 
-export default Footer
-
-
+export default Footer;

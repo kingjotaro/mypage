@@ -10,9 +10,11 @@ import discount from "./Discount.svg";
 import linkedin from "./linkedin.svg";
 import logo from './logo.png'
 import rafael from './rafael.jpg'
+import rocket from './rocket.gif';
 
 
 export {
+  rocket,
   rafael,
   logo,
   bill,

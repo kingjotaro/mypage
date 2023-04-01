@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './style';
 
 
+
 import {Board, Button, Footer, Midboard, Navbar} from './components';
 
 
@@ -10,33 +11,36 @@ function App() {
     
   
     
-    <div className="bg-black w-full overflow-hiden">
+    <div className={`bg-black-to-white-gradient3 w-full overflow-hiden `}>
 
-      <div className={`${styles.paddingX} ${styles.flexCenter}  `}>
+      <div className={` ${styles.flexCenter}  `}>
         <div className={`${styles.boxWidth} navbar-fixed `}>
           <Navbar/>
         </div>
       </div> 
 
 
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`xl:max-w-[1280px] w-full font-bold text-gray-800  text-2xl`}>
-        <p className={`${styles.heading2} text-white `}
-        >A world is a vast, beautiful, and full of opportunities.</p>
+      <div className={`${styles.flexCenter}`}>
+        <div>
+        <p className={`${styles.heading2} text-white`}
+        >A world is a vast, beautiful, and full of opportunities. </p>
+        
         <Board/>
+        <spam className={`text-white ${styles.heading2} text-justify px-40 -mt-60`} >If you're ready to explore the endless possibilities of this vast world, take a look at my portfolio and see how we can make opportunities happen together.</spam>
         </div>
       </div>
 
-      <div className={`bg-black-gradient-2 ${styles.paddingB}`}>
-        <p className={`text-white ${styles.paragraph}`}>
-        Portfólio</p>
+      <div className={` mt-20 `}>
+        <p className={`text-white ${styles.flexCenter} fonte-size4 font-bold mr-20 py-10`}>
+        Portfolio</p>
         <Midboard />
       </div>
 
-      <div className={`bg-black-gradient ${styles.flexCenter} ${styles.paddingB}`}>
-      <p className={`${styles.heading2} ml-10 `}
+      <div className={` ${styles.flexCenter} flex-col`}>
+        <p className={`${styles.heading2} ml-10 text-white`}
         >Don't wait for opportunities to come to you. Let's create them together.</p>
         <div className={`flex items-center center`}></div>
+        
         <Footer />
       </div>
 
