@@ -1,6 +1,7 @@
 import React from 'react';
 import rocket from '../assets/rocket.gif';
 
+
 const Footer = () => {
   return (
     <div className={`flex-cold relative`}>

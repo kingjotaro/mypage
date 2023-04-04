@@ -9,10 +9,10 @@ const styles = {
     paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
   
     flexCenter: " flex justify-center items-center",
-    flexStart: "justify-center items-start",
+    flexStart: "justify-center items-center",
     flexCenter2: "flex items-center",
 
-   
+
     
 
     paddingB: "sm:px-20",

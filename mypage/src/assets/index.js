@@ -11,9 +11,12 @@ import linkedin from "./linkedin.svg";
 import logo from './logo.png'
 import rafael from './rafael.jpg'
 import rocket from './rocket.gif';
-
+import wall from './wall.jpg';
+import CV2023 from './CV2023.pdf'; 
 
 export {
+  CV2023,
+  wall,
   rocket,
   rafael,
   logo,

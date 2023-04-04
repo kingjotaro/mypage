@@ -1,6 +1,6 @@
-import {rafael, linkedin} from "../assets";
-import { faRocket } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {rafael, linkedin, CV2023} from "../assets";
+
+
 
 
 
@@ -9,13 +9,30 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+    dropdownLinks: [
+      {
+        id: "linkedin",
+        title: 'linkedin',
+        url: 'https://www.linkedin.com/in/rafael1337/',
+      },
+      {
+        id: "github",
+        title: 'github',
+        url: 'https://github.com/kingjotaro',
+      },
+    ],
   },
+  
   {
     id: "cv",
     title: "Download CV",
+    url: CV2023
   },
  
   
+    
+   
+
 ];
 
 export const boardLinks1 = [

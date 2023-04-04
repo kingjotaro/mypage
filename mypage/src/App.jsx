@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './style';
+import wall from './assets/wall.jpg';
+
 
 
 
@@ -24,9 +26,10 @@ function App() {
         <div>
         <p className={`${styles.heading2} text-white`}
         >A world is a vast, beautiful, and full of opportunities. </p>
+    
         
         <Board/>
-        <spam className={`text-white ${styles.heading2} text-justify px-40 -mt-60`} >If you're ready to explore the endless possibilities of this vast world, take a look at my portfolio and see how we can make opportunities happen together.</spam>
+        <span className={`text-white ${styles.heading2} text-justify px-40 -mt-60`} >If you're ready to explore the endless possibilities of this vast world, take a look at my portfolio and see how we can make opportunities happen together.</span>
         </div>
       </div>
 

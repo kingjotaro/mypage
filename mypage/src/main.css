@@ -26,12 +26,11 @@
   
 }
 
-.spline {
-  position: flex;
-  margin-right: 20;
-  }
+.relative:hover .absolute {
+  visibility: visible;
+}
 
-  
+
 
   .bg-black-to-white-gradient3 {
     background: linear-gradient(to bottom,
