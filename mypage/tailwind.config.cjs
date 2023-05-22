@@ -11,7 +11,9 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        marck: ['Marck-Script'],
+        amatic: ['Amatic SC'],
+        gloria: ['Gloria Hallelujah'],
       },
     },
     screens: {

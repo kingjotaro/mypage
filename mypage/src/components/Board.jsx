@@ -3,8 +3,8 @@ import Spline from '@splinetool/react-spline';
 
 const Board = () => {
   return (
-    <div className={`w-full h-screen hidden sm:flex justify-center items-center `}>
-      <div className={`w-3/3 -mt-60`}>
+    <div className={`ml-20 mb-10 custom-scale `}>
+      <div>
         <Spline className={`spline`} scene="https://prod.spline.design/9e68dkmu8kG-BetQ/scene.splinecode" />
       </div>
       

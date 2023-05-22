@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gloria+Hallelujah&family=Marck+Script&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -29,69 +29,37 @@
 .relative:hover .absolute {
   visibility: visible;
 }
-
-
-
-  .bg-black-to-white-gradient3 {
-    background: linear-gradient(to bottom,
-    #000000 2%,
-    #2c2c2c 5%,
-    #000000 7%,
-    #000000 40%,
-    #2c2c2c 41%,
-    #000000 46%,
-    #000000 77%,
-    #2c2c2c 79%,
-    #000000 84%,
-    #000000 100%);
-  }
-
-.fonte-size1 {
-  font-size: 15px;
-}
-
-.fonte-size2 {
-  font-size: 20px; 
-}
-
-.fonte-size3 {
-  font-size: 30px;
-}
-
-.fonte-size4 {
-  font-size: 40px;
-}
-
-.fonte-size5 {
-  font-size: 50px;
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
 }
 
 
-
-.sidebar {
-  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.custom-scale {
+  transform: scale(1);
 }
 
-@-webkit-keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(100px);
-    transform: translateY(100px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+@media (max-width: 1024px) {
+  .custom-scale {
+    transform: scale(0.8);
   }
 }
 
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(100px);
-    transform: translateY(100px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+@media (max-width: 800px) {
+  .custom-scale {
+    transform: scale(0.7);
   }
 }
 
+@media (max-width: 600px) {
+  .custom-scale {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 375px) {
+  .custom-scale {
+    transform: scale(0.45);
+  }
+}
