@@ -5,4 +5,4 @@ import Bio from "./Bio";
 import About from "./About";
 
 
-export { Board, Navbar, NavbarTwo, Bio, A };
+export { Board, Navbar, NavbarTwo, Bio, About };
