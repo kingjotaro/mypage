@@ -7,8 +7,8 @@ export const jobLinks = [  {
   dropdownLinks: [
     {
       id: "jobs123",
-      title: "Placeholder",
-      url: 'https://www.linkedin.com/in/rafael1337/',
+      title: "Serashop",
+      url: '/working',
     },
     {
       id: "jogs",
