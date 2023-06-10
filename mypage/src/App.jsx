@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./style";
-import { Board, Navbar, Navbar2, Bio, About } from "./components";
+import { Board, Navbar, NavbarTwo, Bio, About } from "./components";
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Bio onClick={toggleBoardVisibility} />
         </div>
         <div className={`${styles.boxWidth} `}>
-          <Navbar2 />
+          <NavbarTwo />
         </div>
       </div>
 
