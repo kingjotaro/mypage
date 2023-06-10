@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <div className={`bg-black w-full `}>
+    <div className={`bg-black w-full -mt-5 `}>
       <div className={`${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />

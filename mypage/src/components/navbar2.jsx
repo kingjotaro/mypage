@@ -14,8 +14,6 @@ const Navbar2 = () => {
       setJob(false);
     };
     
-  
- 
     return (
         <nav className={`w-full flex py-10 justify-center items-center relative z-10 `}>
           <ul className='list-none sm:flex justify-center items-center flex-1 '>
