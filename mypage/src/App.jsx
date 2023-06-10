@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import styles from './style';
-import { Board, Navbar } from './components';
-import Navbar2 from './components/Navbar2';
-import Bio from './components/Bio';
-import About from './components/About';
+import React, { useState } from "react";
+import styles from "./style";
+import { Board, Navbar, Navbar2, Bio, About } from "./components";
+
 
 function App() {
   const [boardVisible, setBoardVisible] = useState(true);
@@ -19,7 +17,7 @@ function App() {
           <Navbar />
         </div>
         <div className={`${styles.boxWidth}`}>
-          <Bio onClick={toggleBoardVisibility} /> 
+          <Bio onClick={toggleBoardVisibility} />
         </div>
         <div className={`${styles.boxWidth} `}>
           <Navbar2 />
@@ -28,12 +26,15 @@ function App() {
 
       <div className={`${styles.flexCenter} `}>
         <div>
-            
-          {boardVisible && <p className={`font-gloria text-white ${styles.textinho} text-center`}>
-            In the quest for answers, We found more questions.
-          </p>}
-          {boardVisible && <Board />} 
-          {!boardVisible && <About />} 
+          {boardVisible && (
+            <p
+              className={`font-gloria text-white ${styles.textinho} text-center`}
+            >
+              In the quest for answers, We found more questions.
+            </p>
+          )}
+          {boardVisible && <Board />}
+          {!boardVisible && <About />}
         </div>
       </div>
     </div>
