@@ -14,13 +14,13 @@ const NavbarTwo = () => {
 
   return (
     <nav
-      className={`w-full flex py-10 justify-center items-center relative z-10 `}
+      className={`py-20 justify-center items-center relative z-10 `}
     >
       <ul className="list-none sm:flex justify-center items-center flex-1 ">
         {jobLinks.map((nav) => (
           <li
             key={nav.id}
-            className={` cursor-pointer text-[40px]  mr-10 ${
+            className={`cursor-pointer text-[40px] mr-10 ${
               nav.dropdownLinks ? "sticky " : ""
             }`}
           >
@@ -33,9 +33,9 @@ const NavbarTwo = () => {
             )}
             {nav.id === "jobs" && (
               <div
-                className={`flex flex-col ${
+                className={` ${
                   showJobs ? "visible" : "invisible"
-                } absolute top-full left-0 bg-black p-4 `}
+                } absolute top-full left-0 bg-black `}
                 onMouseEnter={handleContactMouseEnter}
                 onMouseLeave={handleContactMouseLeave}
               >

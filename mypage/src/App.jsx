@@ -11,7 +11,7 @@ function App() {
   };
 
   return (
-    <div className={`bg-black w-full -mt-5 `}>
+    <div className={`bg-black w-full -mt-20 `}>
       <div className={`${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -28,7 +28,7 @@ function App() {
         <div>
           {boardVisible && (
             <p
-              className={`font-gloria text-white ${styles.textinho} text-center`}
+              className={`font-gloria text-white -mt-10 ${styles.textinho} text-center`}
             >
               In the quest for answers, We found more questions.
             </p>

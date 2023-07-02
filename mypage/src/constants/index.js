@@ -11,9 +11,9 @@ export const jobLinks = [  {
       url: '/working',
     },
     {
-      id: "jogs",
-      title: 'Placeholder2',
-      url: 'https://github.com/kingjotaro',
+      id: "codeleap",
+      title: 'Codeleap',
+      url: 'https://codeleap-challenge-seven.vercel.app',
     },
   ],
 },
