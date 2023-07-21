@@ -7,8 +7,8 @@ export const jobLinks = [  {
   dropdownLinks: [
     {
       id: "jobs123",
-      title: "Serashop",
-      url: '/working',
+      title: "Lorekeeper",
+      url: 'https://lorebuild.vercel.app',
     },
     {
       id: "codeleap",
