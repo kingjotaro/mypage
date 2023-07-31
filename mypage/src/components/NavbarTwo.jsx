@@ -14,7 +14,7 @@ const NavbarTwo = () => {
 
   return (
     <nav
-      className={` `}
+      className={`justify-center items-center relative z-10 `}
     >
       <ul className="list-none sm:flex justify-center items-center flex-1 ">
         {jobLinks.map((nav) => (
