@@ -4,7 +4,7 @@ const styles = {
   
     
   
-    flexCenter: " flex justify-center items-center",
+    flexCenter: " flex justify-center",
     flexStart: "justify-center items-center",
     flexCenter2: "flex items-center",
 
